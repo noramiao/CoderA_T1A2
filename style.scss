@@ -157,3 +157,23 @@ footer{
     }
 }
 
+@media screen and (max-width:600px)  {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .secondary-text{
+        text-wrap: wrap;
+        text-align: center;
+    }
+    .btn-homepage{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+    
