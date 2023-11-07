@@ -2,25 +2,27 @@ $primary-color:#f1f1f1;
 $secondary-color:#D3D5CC;
 $header-background-color:#EBEDEA;
 $footer-background-color:#3E4035;
+$link-hover-color:#2EC3C8;
 
 body{
     margin:0;
     background-color: $primary-color;
+    font-family:'Mukta', sans-serif;
 }
 
 header{
     display:flex;
     justify-content: space-between;
     background-color: $header-background-color;
-    // font-size: 1.8rem;
     padding: 1rem;
     
     .logo{
-        font-size: 1.8rem;
-        font-weight: 600;
+        font-size: 2.2rem;
+        font-weight: 900;
     }
     #nav-bar{
         font-size: 1.2rem;
+        font-weight: 600;
         margin-top: 0.5rem;
 
     }
@@ -31,10 +33,32 @@ header{
         padding:0.5rem;
     }
     a:hover{
-        color:#2EC3C8;
+        color:$link-hover-color;
     }
 }
 
+footer{
+    background-color:$footer-background-color;
+    color:$primary-color;
+    display:flex;
+    justify-content: space-evenly;
+    padding:1rem;
+
+    .social-media{
+        font-size: 2.2rem;
+
+        a{
+            display:block;
+            color:$primary-color;
+            :hover{
+                color:$link-hover-color;
+            }
+        }
+    }
+    p{
+        padding:0.5rem;
+    }
+}
 
 
 
