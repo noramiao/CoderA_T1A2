@@ -25,3 +25,23 @@ Here is the code for the header section:
         </div>
     </header>
 ```
+### Footer
+Footer is the bottom component on every page of the website. It contains social media links and contact details.
+
+Here is the code for the footer section:
+```html
+ <footer>
+        <div class="contact-detail">
+            <p>Contact: +61428027652</p>
+            <p>Address: Willowbank, QLD, 4306</p>
+        </div>
+        <div class="social-media">
+            <a href="https://github.com/noramiao"> 
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nora-sun-993b04299/"> 
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+```
