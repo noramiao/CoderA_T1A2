@@ -1,0 +1,39 @@
+@import"../defaults/colors";
+@import"../defaults/breakpoints";
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: $header-background-color;
+    padding: 1rem;
+    
+    .logo{
+        font-size: 2.2rem;
+        font-weight: 900;
+    }
+    #nav-bar{
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 0.5rem;
+
+    }
+
+    a{
+        text-decoration: none;
+        color:$footer-background-color;
+        padding:0.5rem;
+    }
+    a:hover{
+        color:$link-hover-color;
+    }
+}
+
+@media screen and (max-width:$medium)  {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

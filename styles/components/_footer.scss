@@ -1,0 +1,20 @@
+@import"../defaults/colors";
+
+footer{
+    background-color:$footer-background-color;
+    color:$primary-color;
+    padding:1rem;
+
+    .social-media{
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-around;
+
+        a{
+            color:$primary-color;
+            :hover{
+                color:$link-hover-color;
+            }
+        }
+    }
+}
