@@ -1,4 +1,5 @@
 @import"../../style";
+@import"../components/utils";
 
 .homepage-main{
     height:800px;
@@ -43,7 +44,7 @@
             width:8rem;
             }
         button:hover{
-            background-color:$link-hover-color ;
+            @include btn-hover;
         }
     } 
     }
