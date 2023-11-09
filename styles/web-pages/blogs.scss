@@ -1,4 +1,5 @@
 @import"../../style.scss";
+@import"../components/utils";
 
 @mixin blog-box{
     height:160px;
@@ -8,22 +9,12 @@
     justify-content: space-around;
     align-items: center;
     border: 2.5px solid $primary-color;
+    text-align: center;
 }
 
 @mixin blog-box-text {
     font-size: 1.5rem;
     font-weight: 600;
-}
-
-@mixin blog-box-btn {
-    font-weight: 400;
-    padding:0.8rem;
-    border-radius: 1rem;
-    border-style: none;
-}
-
-@mixin btn-hover {
-    background-color:$link-hover-color;
 }
 
 .blog-posts{
@@ -38,8 +29,7 @@ box-sizing:border-box;
 
         .blog-one-text{
             @include blog-box-text;
-            color:$footer-background-color;
-            
+            color: $footer-background-color;
         }
 
         .blog-two-date{
@@ -48,7 +38,6 @@ box-sizing:border-box;
 
         button{
             @include blog-box-btn;
-            color: $footer-background-color;
         }
         button:hover{
             @include btn-hover;
@@ -59,7 +48,6 @@ box-sizing:border-box;
         @include blog-box;
         background-image: url(../../images/inside-a-computer.png);
         
-
         .blog-two-text{
             @include blog-box-text;
             color:$primary-color;
@@ -71,20 +59,75 @@ box-sizing:border-box;
 
         button{
             @include blog-box-btn;
-            color: $footer-background-color;
         }
         button:hover{
             @include btn-hover;
         }
     }
     .blog-three{
-        height:160px;
+        @include blog-box;
+        background-image: url(../../images/book-pages.png);
+
+        .blog-three-text{
+            @include blog-box-text;
+            color:$footer-background-color;
+        }
+
+        .blog-three-date{
+            color:$footer-background-color;
+        }
+
+        button{
+            @include blog-box-btn;
+        }
+        button:hover{
+            @include btn-hover;
+        }
     }
-    .blog-flour{
-        height:160px;
+
+    .blog-four{
+
+        @include blog-box;
+        background-image: url(../../images/lines-of-codes.png);
+
+        .blog-four-text{
+            @include blog-box-text;
+            color:$primary-color;
+        }
+
+        .blog-four-date{
+            color:$primary-color;
+        }
+
+        button{
+            @include blog-box-btn;
+        }
+        button:hover{
+            @include btn-hover;
+        }
+        
     }
+
     .blog-five{
-        height:160px;
+        
+        @include blog-box;
+        background-image: url(../../images/AI.png);
+
+        .blog-five-text{
+            @include blog-box-text;
+            color:$primary-color;
+        }
+
+        .blog-five-date{
+            color:$primary-color;
+        }
+
+        button{
+            @include blog-box-btn;
+        }
+        button:hover{
+            @include btn-hover;
+        }
     }
 
 }

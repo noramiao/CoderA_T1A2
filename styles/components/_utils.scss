@@ -1,0 +1,47 @@
+@import"../defaults/colors";
+
+@mixin blog-posts{
+
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:'Mukta', sans-serif;
+
+   img{
+    width:auto;
+    height:200px;
+   }
+
+   .blog-text{
+    margin:0 1.5rem;
+    text-align: left;
+    font-size: 1.1rem;
+   }
+
+   .blog-page-btn{
+    font-weight: 400;
+    font-size: 1rem;
+    padding:1.2rem;
+    border-radius: 1rem;
+    border-style: none;
+    background-color: $footer-background-color;
+    color:$primary-color;
+    margin: 1rem;
+   }
+
+   .blog-page-btn:hover{
+   @include btn-hover;
+   }
+}
+
+@mixin blog-box-btn {
+    font-weight: 400;
+    padding:0.8rem;
+    border-radius: 1rem;
+    border-style: none;
+    color: $footer-background-color;
+}
+
+@mixin btn-hover {
+    background-color:$link-hover-color;
+}
