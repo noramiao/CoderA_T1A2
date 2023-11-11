@@ -5,10 +5,10 @@
     display:flex;
     flex-direction: column;
     text-align: center;
-    font-family:'Mukta', sans-serif;
+    font-family:$primary-font-family;
 
    img{
-    width:auto;
+    width:100%;
     height:200px;
    }
 
@@ -33,7 +33,6 @@
     background-color: $footer-background-color;
     color:$primary-color;
     margin: 1rem;
-    // transition: 0.2s;
    }
 
    .blog-page-btn:hover{
@@ -48,6 +47,7 @@
     border-radius: 1rem;
     border-style: none;
     color: $footer-background-color;
+    font-family: $primary-font-family;
 }
 
 @mixin btn-hover {
@@ -55,5 +55,16 @@
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     transition: 0.2s;
+}
+
+@mixin contact-input{
+
+    font-size: 1rem;
+    padding:1rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: $primary-font-family;
+    margin-bottom: 1rem;
+
 }
 

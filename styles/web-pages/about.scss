@@ -1,1 +1,87 @@
 @import"../../style.scss";
+
+body{
+    font-family: $primary-font-family;
+    color: $footer-background-color;
+}
+
+.general-about{
+    display:flex;
+    justify-content: center;
+
+    .photo{
+        border-radius: 5rem;
+        padding:1.5rem;
+        display: flex;
+        justify-content: center;
+        height:100%;
+        width: 100%;
+    }
+
+    .personal-about{
+        font-size: 1rem;
+        padding:1.5rem;
+    }
+}
+.education{
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+    padding:1.5rem;
+
+    .education-title{
+        font-size: 1.5rem;
+        font-weight: 600;
+
+    }
+
+    #education-detail{
+        display:flex;
+        flex-direction: row;
+        font-size: 1rem;
+        text-align: left;
+
+        .coder-academy{
+            width:50%;
+
+            .education-one{
+                font-weight: 600;
+                font-style: italic;
+            }
+        }
+
+        .accounting{
+            width:50%;
+
+            .education-two{
+                    font-weight: 600;
+                    font-style: italic;
+            }
+        }
+    }
+   
+}
+    
+
+.cv-download{
+    height: 300px;
+    border: 5px solid black;
+
+}
+
+
+@media screen and (max-width:$medium){
+
+    .general-about{
+        flex-direction: column;
+    }
+    .btn-homepage{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #education-detail{
+        display:flex;
+        flex-direction: row;
+    }
+}

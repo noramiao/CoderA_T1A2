@@ -1,5 +1,4 @@
 @import"../../style.scss";
-@import"../components/utils";
 
 @mixin blog-box{
     height:160px;
@@ -22,6 +21,7 @@ height:800px;
 display:flex;
 flex-direction: column;
 box-sizing:border-box;
+font-family: $primary-font-family;
 
     .blog-one{
         @include blog-box;
