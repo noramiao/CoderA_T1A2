@@ -63,12 +63,76 @@ body{
 }
     
 
+.skills{
+
+    padding:1.5rem;
+
+    .skill-intro{
+        display:flex;
+
+        .skill-chart{
+            color:$primary-color;
+            font-weight: 600;
+            margin:1rem 2rem 1rem 0;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            width:50%;
+
+            .html-100{
+                width:100%;
+                height:2rem;
+                background-color:$secondary-color;
+                margin-bottom:0.5rem;
+            }
+
+            .html-75{
+                width:75%;
+                height:2rem;
+                background-color:$footer-background-color;
+                
+            }
+
+            .css-100{
+                width:100%;
+                height:2rem;
+                background-color:$secondary-color;
+                margin-bottom:0.5rem;
+            }
+            .css-60{
+                width:60%;
+                height:2rem;
+                background-color:$footer-background-color;
+            }
+
+            .git-100{
+                width:100%;
+                height:2rem;
+                background-color:$secondary-color;
+            }
+            .git-50{
+                width:50%;
+                height:2rem;
+                background-color:$footer-background-color;
+            }
+        }
+
+        .skill-paragraph{
+            margin:1rem 0 1rem 0;
+            width:50%;
+
+        }
+    }
+}
 .cv-download{
-    height: 300px;
-    border: 5px solid black;
+    padding:1.5rem;
+
+    .fa-file{
+        color:$footer-background-color;
+        font-size: 3rem;
+    }
 
 }
-
 
 @media screen and (max-width:$medium){
 
@@ -80,8 +144,20 @@ body{
         flex-direction: column;
     }
 
-    #education-detail{
+    .skill-intro{
+
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
+        margin:0;
+
+        .skill-chart{ 
+            margin:1rem 1rem 1rem 0;
+            min-width:98%;
+            }
+
+        .skill-paragraph{
+            margin-left:0;
+            min-width:98%;
+            }
     }
 }

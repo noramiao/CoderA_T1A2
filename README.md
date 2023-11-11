@@ -73,6 +73,3 @@ Here is the code for the footer section:
 
     </footer>
 ```
-
-
-
