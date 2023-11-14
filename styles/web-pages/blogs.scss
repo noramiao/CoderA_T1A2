@@ -1,21 +1,6 @@
 @import"../../style.scss";
 
-@mixin blog-box{
-    height:160px;
-    background-size: cover;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border: 2.5px solid $primary-color;
-    text-align: center;
-}
-
-@mixin blog-box-text {
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
+// main section-blog post list styling
 .blog-posts{
 height:800px;
 display:flex;
@@ -23,6 +8,7 @@ flex-direction: column;
 box-sizing:border-box;
 font-family: $primary-font-family;
 
+// blog one styling
     .blog-one{
         @include blog-box;
         background-image: url(../../images/book-with-words.png);
@@ -44,6 +30,7 @@ font-family: $primary-font-family;
         }
     } 
     
+    // blog two styling
     .blog-two{
         @include blog-box;
         background-image: url(../../images/inside-a-computer.png);
@@ -64,6 +51,7 @@ font-family: $primary-font-family;
             @include btn-hover;
         }
     }
+    // blog three styling
     .blog-three{
         @include blog-box;
         background-image: url(../../images/book-pages.png);
@@ -84,7 +72,7 @@ font-family: $primary-font-family;
             @include btn-hover;
         }
     }
-
+// blog four styling
     .blog-four{
 
         @include blog-box;
@@ -107,7 +95,7 @@ font-family: $primary-font-family;
         }
         
     }
-
+// blog five styling
     .blog-five{
         
         @include blog-box;

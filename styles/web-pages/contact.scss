@@ -1,13 +1,13 @@
 @import"../../style.scss";
 
-
+// main section
 .contact-main{
     font-family:$primary-font-family;
     color:$footer-background-color;
     padding:5rem;
     text-align: center;
    
-
+// contact form section
     .contact-form{
         display:flex;
         flex-direction: column;
@@ -16,7 +16,7 @@
         border-radius:1rem;
         box-shadow: 0 10px 20px rgba(0,0,0,0.2);
         
-
+// name and email input section
     input{
         @include contact-input;
        
@@ -25,7 +25,7 @@
     input:focus{
         outline-color: $link-hover-color;
     }
-
+// your message section
     textarea{
         @include contact-input;
     }
@@ -35,7 +35,7 @@
     }
 
     }
-
+// submit btn
     button{
         text-transform: uppercase;
         font-size: 1.2rem;

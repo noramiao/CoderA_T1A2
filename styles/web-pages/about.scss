@@ -1,15 +1,15 @@
 @import"../../style.scss";
 
-
+// body section styling
 body{
     font-family: $primary-font-family;
     color: $footer-background-color;
 }
-
+// general about me section
 .general-about{
     display:flex;
     justify-content: center;
-
+// my photo styling
     .photo{
         border-radius: 5rem;
         padding:1.5rem;
@@ -18,12 +18,13 @@ body{
         height:100%;
         width: 100%;
     }
-
+// general about me text styling
     .personal-about{
         font-size: 1rem;
         padding:1.5rem;
     }
 }
+// education history section styling
 .education{
     display:flex;
     flex-direction:column;
@@ -35,13 +36,13 @@ body{
         font-weight: 600;
 
     }
-
+// education history styling
     #education-detail{
         display:flex;
         flex-direction: row;
         font-size: 1rem;
         text-align: left;
-
+// education 1
         .coder-academy{
             width:50%;
 
@@ -50,7 +51,7 @@ body{
                 font-style: italic;
             }
         }
-
+// education 2
         .accounting{
             width:50%;
 
@@ -63,14 +64,14 @@ body{
    
 }
     
-
+// skill section styling
 .skills{
 
     padding:1.5rem;
 
     .skill-intro{
         display:flex;
-
+// skill chart 
         .skill-chart{
             color:$primary-color;
             font-weight: 600;
@@ -108,7 +109,7 @@ body{
                 @include skill-not-100;
             }
         }
-
+// skill text styling
         .skill-paragraph{
             margin:1rem 0 1rem 0;
             width:50%;
@@ -116,6 +117,7 @@ body{
         }
     }
 }
+// CV download section
 .cv-download{
     padding:1.5rem;
 
