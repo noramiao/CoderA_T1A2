@@ -1,75 +1,53 @@
-# Portfolio
+# A link (URL) to your published portfolio website
+https://creative-pudding-7fdeab.netlify.app/
 
-## Overview
-This is my portfolio webite to show off my HTML and CSS skills. This site is currently under development, stay tuned. 
+# A link to your GitHub repo
+https://github.com/noramiao/CoderA_T1A2
 
-## Components
+# A link to your presentation video
 
-### Header
-Header is the top component on every page of the webiste. It contains logo and navgation bar. 
+# Description of your portfolio website, including,
+## Purpose
 
-Here is the code for the header section:
+  I created my prtfoloio webite to put my learning about HTML and CSS in to pratice. And to check and improve my understanding about the subject.
 
-```html
-       <header>
-        <div class="logo">
-            <a href="./index_home.html">Nora Sun</a>
-        </div>
-        <div id="nav-bar">
-            <nav>
-                <a href="./index_home.html">Home</a>
-                <a href="./index_about.html">About</a>
-                <a href="./index_blogs.html">Blogs</a>
-                <a href="./index_contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
-```
+## Functionality / features
+  
+  My website has 5 parts:
+  
+* Home page: Home page is the main page of my webite. It is designed to give a very general introduction what the user is landing on and what to expect on my website, at the same time provide the navigation to all the other pages. 
 
-### Main
-Main contains content for each page.
+Users also can find my contact details (Github, LinkedIn and Email address) on the footer of the home page, in case they want to get in touch. 
 
-#### Main_homepage
-Homepage main component is the middle part of the website. It contains the main content for the home page.
+The home page is designed to have a background image and 2 animated texts and animated navigation button to all the other pages. 
 
-Here is the code for the homepage main section:
-```html
-<main class="homepage-main">
-        <div class="primary-text">Hey, I am Nora.</div>
-        <div class="secondary-text">Happy to see you here, let me show you around.</div>
-        <div class="btn-homepage">
-            <a href="./index_about.html">
-            <button >About</button>
-            </a>
-            <a href="./index_blogs.html">
-            <button>Blogs</button>
-            </a>
-            <a href="./index_contact.html">
-            <button>Contact</button>
-            </a>
-        </div>
-    </main>
-```
+* About page: About page is designed to give user a general introduction about me, including my professional history, my hobbies, education background, skill sets and a downloadable CV for any interest parties.
+
+The about page is designed using flexbox to have a seamless responsive designs for all screen sizes.  
+
+* Blog page: This is a blog list page, which includes 5 links to 5 blogs. 
+
+The animated button makes the page very interative. 
+
+* Contact page: Contact page is designed to let user to get in touch with me.
+
+User can leave their name and email address (both are required element), and their messages. 
+
+* Blog post pages: This part included 5 seperate pages, each page include one blog post. Designed with responsive header image for each blog, and navigation buttons (to previous blog and next blog)at the bottom of the page.
 
 
-### Footer
-Footer is the bottom component on every page of the webite. It contains social icons and email contact.
+## Sitemap
 
-Here is the code for the footer section:
-```html
-<footer>
 
-        <div class="social-media">
-            <a href="https://github.com/noramiao"> 
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/nora-sun-993b04299/"> 
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="mailto:sun.xiaopu84@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-        </div>
 
-    </footer>
-```
+
+## Screenshots
+
+## Target audience
+* People who are interested in my development skills.
+* Everyone who visit my website. 
+
+## Tech stack (e.g. html, css, deployment platform, etc)
+HTML CSS GIT Netlify
+
+
