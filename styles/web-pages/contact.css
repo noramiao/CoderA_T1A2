@@ -1,0 +1,117 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #EBEDEA;
+  padding: 1rem;
+}
+header .logo {
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+header #nav-bar {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+header a {
+  text-decoration: none;
+  color: #3E4035;
+  padding: 0.5rem;
+}
+header a:hover {
+  color: #2EC3C8;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header #nav-bar {
+    margin: 0;
+  }
+}
+footer {
+  background-color: #3E4035;
+  color: #f1f1f1;
+  padding: 1rem;
+}
+footer .social-media {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+footer .social-media a {
+  color: #f1f1f1;
+}
+footer .social-media a :hover {
+  color: #2EC3C8;
+}
+
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: "Mukta", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-main {
+  font-family: "Mukta", sans-serif;
+  color: #3E4035;
+  padding: 5rem;
+  text-align: center;
+}
+.contact-main .contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: rgb(228, 198, 171);
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.contact-main .contact-form input {
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-family: "Mukta", sans-serif;
+  margin-bottom: 1rem;
+}
+.contact-main .contact-form input:focus {
+  outline-color: #2EC3C8;
+}
+.contact-main .contact-form textarea {
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-family: "Mukta", sans-serif;
+  margin-bottom: 1rem;
+}
+.contact-main .contact-form textarea:focus {
+  outline-color: #2EC3C8;
+}
+.contact-main button {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #EBEDEA;
+  width: 8rem;
+  font-weight: 400;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border-style: none;
+  color: #3E4035;
+  font-family: "Mukta", sans-serif;
+}
+.contact-main button:hover {
+  background-color: #2EC3C8;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}/*# sourceMappingURL=contact.css.map */
