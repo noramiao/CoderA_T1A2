@@ -9,6 +9,7 @@ box-sizing:border-box;
 font-family: $primary-font-family;
 
 // blog one styling
+// graphical content R3
     .blog-one{
         @include blog-box;
         background-image: url(../../images/book-with-words.png);
@@ -31,6 +32,7 @@ font-family: $primary-font-family;
     } 
     
     // blog two styling
+    // graphical content R3
     .blog-two{
         @include blog-box;
         background-image: url(../../images/inside-a-computer.png);
@@ -52,6 +54,7 @@ font-family: $primary-font-family;
         }
     }
     // blog three styling
+       // graphical content R3
     .blog-three{
         @include blog-box;
         background-image: url(../../images/book-pages.png);
@@ -73,6 +76,7 @@ font-family: $primary-font-family;
         }
     }
 // blog four styling
+   // graphical content R3
     .blog-four{
 
         @include blog-box;
@@ -96,6 +100,7 @@ font-family: $primary-font-family;
         
     }
 // blog five styling
+   // graphical content R3
     .blog-five{
         
         @include blog-box;

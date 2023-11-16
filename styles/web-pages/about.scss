@@ -10,6 +10,7 @@ body{
     display:flex;
     justify-content: center;
 // my photo styling
+   // graphical content R3
     .photo{
         border-radius: 5rem;
         padding:1.5rem;
@@ -19,6 +20,7 @@ body{
         width: 100%;
     }
 // general about me text styling
+// text content R2
     .personal-about{
         font-size: 1rem;
         padding:1.5rem;
@@ -37,6 +39,7 @@ body{
 
     }
 // education history styling
+// text content R2
     #education-detail{
         display:flex;
         flex-direction: row;
@@ -65,6 +68,7 @@ body{
 }
     
 // skill section styling
+// text content R2
 .skills{
 
     padding:1.5rem;
@@ -118,6 +122,7 @@ body{
     }
 }
 // CV download section
+   // graphical content R3
 .cv-download{
     padding:1.5rem;
 

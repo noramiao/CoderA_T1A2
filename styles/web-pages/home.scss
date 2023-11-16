@@ -1,6 +1,7 @@
 @import"../../style";
 
 // main section
+// graphical content
 .homepage-main{
     height:800px;
     background-image:url(../../images/book-computer.png);
@@ -10,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+// text content R2
     .primary-text{
         font-size: 3rem;
         color: $footer-background-color;
@@ -18,7 +19,7 @@
         animation-name:moveRight;
         animation-duration: 1s;
         }
-
+// text content R2
     .secondary-text{
         font-size: 1.5rem;
         color: $footer-background-color;
