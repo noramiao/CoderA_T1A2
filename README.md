@@ -32,7 +32,9 @@ When you open my website, you will landed on the home page, from this page, you 
 
 And there are 5 blog post pages nested under the blog page. These 5 blog post pages are also linked with each other. 
 
-For more details, please refer to the sitemap from the above Github repo.
+Here is a screenshot of the sitemap, for more details, please refer to the sitemap from the above Github repo.
+![screenshot of sitemap](./Sitemap_screenshot.png)
+
 
 ## Screenshots
 
